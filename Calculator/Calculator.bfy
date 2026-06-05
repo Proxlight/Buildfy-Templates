@@ -1,0 +1,494 @@
+{
+  "version": "3.0",
+  "canvas": {
+    "width": 400,
+    "height": 650,
+    "title": "Calculator",
+    "theme": "dark",
+    "colorTheme": "blue"
+  },
+  "widgets": [
+    {
+      "id": "ctkbutton_0an92q",
+      "type": "CTkButton",
+      "name": "Button_c7gs",
+      "x": 24,
+      "y": 197,
+      "width": 56,
+      "height": 56,
+      "properties": {
+        "text": "+/-",
+        "fg_color": "#e7650d",
+        "text_color": "#212121",
+        "corner_radius": 100,
+        "hover_color": "#E03E48",
+        "font": [
+          "Arial",
+          17
+        ]
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 1
+    },
+    {
+      "id": "ctkbutton_39kkb6",
+      "type": "CTkButton",
+      "name": "Button_c7gs",
+      "x": 110,
+      "y": 197,
+      "width": 56,
+      "height": 56,
+      "properties": {
+        "text": "/",
+        "fg_color": "#2c2c2c",
+        "text_color": "#ffffff",
+        "corner_radius": 100,
+        "hover_color": "#E03E48",
+        "font": [
+          "Arial",
+          17
+        ]
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 2
+    },
+    {
+      "id": "ctkbutton_4o5mvh",
+      "type": "CTkButton",
+      "name": "Button_c7gs",
+      "x": 211,
+      "y": 197,
+      "width": 56,
+      "height": 56,
+      "properties": {
+        "text": "%",
+        "fg_color": "#2c2c2c",
+        "text_color": "#ffffff",
+        "corner_radius": 100,
+        "hover_color": "#E03E48",
+        "font": [
+          "Arial",
+          17
+        ]
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 3
+    },
+    {
+      "id": "ctkbutton_6k65fq",
+      "type": "CTkButton",
+      "name": "Button_c7gs",
+      "x": 311,
+      "y": 197,
+      "width": 56,
+      "height": 56,
+      "properties": {
+        "text": "⌫",
+        "fg_color": "#e7650d",
+        "text_color": "#212121",
+        "corner_radius": 100,
+        "hover_color": "#E03E48",
+        "font": [
+          "Arial",
+          17
+        ]
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 4
+    },
+    {
+      "id": "ctkbutton_f5tsxh",
+      "type": "CTkButton",
+      "name": "Button_c7gs",
+      "x": 311,
+      "y": 292,
+      "width": 56,
+      "height": 56,
+      "properties": {
+        "text": "X",
+        "fg_color": "#2c2c2c",
+        "text_color": "#ffffff",
+        "corner_radius": 100,
+        "hover_color": "#E03E48",
+        "font": [
+          "Arial",
+          17
+        ]
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 5
+    },
+    {
+      "id": "ctkbutton_v718hn",
+      "type": "CTkButton",
+      "name": "Button_c7gs",
+      "x": 311,
+      "y": 384,
+      "width": 56,
+      "height": 56,
+      "properties": {
+        "text": "-",
+        "fg_color": "#2c2c2c",
+        "text_color": "#ffffff",
+        "corner_radius": 100,
+        "hover_color": "#E03E48",
+        "font": [
+          "Arial",
+          17
+        ]
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 6
+    },
+    {
+      "id": "ctkbutton_uwa9qt",
+      "type": "CTkButton",
+      "name": "Button_c7gs",
+      "x": 311,
+      "y": 475,
+      "width": 56,
+      "height": 56,
+      "properties": {
+        "text": "+",
+        "fg_color": "#2c2c2c",
+        "text_color": "#ffffff",
+        "corner_radius": 100,
+        "hover_color": "#E03E48",
+        "font": [
+          "Arial",
+          17
+        ]
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 7
+    },
+    {
+      "id": "ctkbutton_p55o8h",
+      "type": "CTkButton",
+      "name": "Button_c7gs",
+      "x": 311,
+      "y": 568,
+      "width": 56,
+      "height": 56,
+      "properties": {
+        "text": "=",
+        "fg_color": "#e7650d",
+        "text_color": "#212121",
+        "corner_radius": 100,
+        "hover_color": "#E03E48",
+        "font": [
+          "Arial",
+          17
+        ]
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 8
+    },
+    {
+      "id": "ctkbutton_pkewrn",
+      "type": "CTkButton",
+      "name": "Button_c7gs",
+      "x": 211,
+      "y": 292,
+      "width": 56,
+      "height": 56,
+      "properties": {
+        "text": "9",
+        "fg_color": "#212121",
+        "text_color": "#ffffff",
+        "corner_radius": 100,
+        "hover_color": "#E03E48",
+        "font": [
+          "Arial",
+          17
+        ]
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 9
+    },
+    {
+      "id": "ctkbutton_avqcnw",
+      "type": "CTkButton",
+      "name": "Button_c7gs",
+      "x": 110,
+      "y": 292,
+      "width": 56,
+      "height": 56,
+      "properties": {
+        "text": "8",
+        "fg_color": "#212121",
+        "text_color": "#ffffff",
+        "corner_radius": 100,
+        "hover_color": "#E03E48",
+        "font": [
+          "Arial",
+          17
+        ]
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 10
+    },
+    {
+      "id": "ctkbutton_revbs5",
+      "type": "CTkButton",
+      "name": "Button_c7gs",
+      "x": 24,
+      "y": 292,
+      "width": 56,
+      "height": 56,
+      "properties": {
+        "text": "7",
+        "fg_color": "#212121",
+        "text_color": "#ffffff",
+        "corner_radius": 100,
+        "hover_color": "#E03E48",
+        "font": [
+          "Arial",
+          17
+        ]
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 11
+    },
+    {
+      "id": "ctkbutton_spdek8",
+      "type": "CTkButton",
+      "name": "Button_c7gs",
+      "x": 24,
+      "y": 384,
+      "width": 56,
+      "height": 56,
+      "properties": {
+        "text": "4",
+        "fg_color": "#212121",
+        "text_color": "#ffffff",
+        "corner_radius": 100,
+        "hover_color": "#E03E48",
+        "font": [
+          "Arial",
+          17
+        ]
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 12
+    },
+    {
+      "id": "ctkbutton_01apwp",
+      "type": "CTkButton",
+      "name": "Button_c7gs",
+      "x": 110,
+      "y": 384,
+      "width": 56,
+      "height": 56,
+      "properties": {
+        "text": "5",
+        "fg_color": "#212121",
+        "text_color": "#ffffff",
+        "corner_radius": 100,
+        "hover_color": "#E03E48",
+        "font": [
+          "Arial",
+          17
+        ]
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 13
+    },
+    {
+      "id": "ctkbutton_68fku1",
+      "type": "CTkButton",
+      "name": "Button_c7gs",
+      "x": 211,
+      "y": 384,
+      "width": 56,
+      "height": 56,
+      "properties": {
+        "text": "6",
+        "fg_color": "#212121",
+        "text_color": "#ffffff",
+        "corner_radius": 100,
+        "hover_color": "#E03E48",
+        "font": [
+          "Arial",
+          17
+        ]
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 14
+    },
+    {
+      "id": "ctkbutton_baob59",
+      "type": "CTkButton",
+      "name": "Button_c7gs",
+      "x": 211,
+      "y": 475,
+      "width": 56,
+      "height": 56,
+      "properties": {
+        "text": "3",
+        "fg_color": "#212121",
+        "text_color": "#ffffff",
+        "corner_radius": 100,
+        "hover_color": "#E03E48",
+        "font": [
+          "Arial",
+          17
+        ]
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 15
+    },
+    {
+      "id": "ctkbutton_563zpn",
+      "type": "CTkButton",
+      "name": "Button_c7gs",
+      "x": 110,
+      "y": 475,
+      "width": 56,
+      "height": 56,
+      "properties": {
+        "text": "2",
+        "fg_color": "#212121",
+        "text_color": "#ffffff",
+        "corner_radius": 100,
+        "hover_color": "#E03E48",
+        "font": [
+          "Arial",
+          17
+        ]
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 16
+    },
+    {
+      "id": "ctkbutton_luxgv4",
+      "type": "CTkButton",
+      "name": "Button_c7gs",
+      "x": 24,
+      "y": 475,
+      "width": 56,
+      "height": 56,
+      "properties": {
+        "text": "1",
+        "fg_color": "#212121",
+        "text_color": "#ffffff",
+        "corner_radius": 100,
+        "hover_color": "#E03E48",
+        "font": [
+          "Arial",
+          17
+        ]
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 17
+    },
+    {
+      "id": "ctkbutton_zjucfo",
+      "type": "CTkButton",
+      "name": "Button_c7gs",
+      "x": 24,
+      "y": 568,
+      "width": 56,
+      "height": 56,
+      "properties": {
+        "text": "c",
+        "fg_color": "#212121",
+        "text_color": "#ffffff",
+        "corner_radius": 100,
+        "hover_color": "#E03E48",
+        "font": [
+          "Arial",
+          17
+        ]
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 18
+    },
+    {
+      "id": "ctkbutton_eqhrg6",
+      "type": "CTkButton",
+      "name": "Button_c7gs",
+      "x": 110,
+      "y": 568,
+      "width": 56,
+      "height": 56,
+      "properties": {
+        "text": "0",
+        "fg_color": "#212121",
+        "text_color": "#ffffff",
+        "corner_radius": 100,
+        "hover_color": "#E03E48",
+        "font": [
+          "Arial",
+          17
+        ]
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 19
+    },
+    {
+      "id": "ctkbutton_qounc3",
+      "type": "CTkButton",
+      "name": "Button_c7gs",
+      "x": 211,
+      "y": 568,
+      "width": 56,
+      "height": 56,
+      "properties": {
+        "text": ".",
+        "fg_color": "#212121",
+        "text_color": "#ffffff",
+        "corner_radius": 100,
+        "hover_color": "#E03E48",
+        "font": [
+          "Arial",
+          19
+        ]
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 20
+    },
+    {
+      "id": "ctkframe_97lq13",
+      "type": "CTkFrame",
+      "name": "Frame_lixs",
+      "x": 24,
+      "y": 53,
+      "width": 345,
+      "height": 110,
+      "properties": {
+        "fg_color": "#2c2c2c",
+        "border_color": "#2E2E36",
+        "border_width": 1,
+        "corner_radius": 12
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 21
+    }
+  ],
+  "nodeGraph": {
+    "nodes": [],
+    "edges": []
+  }
+}
