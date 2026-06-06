@@ -1,0 +1,193 @@
+{
+  "version": "3.0",
+  "canvas": {
+    "width": 789,
+    "height": 600,
+    "title": "Login",
+    "theme": "dark",
+    "colorTheme": "pink"
+  },
+  "widgets": [
+    {
+      "id": "CTkFrame_a1b2c3",
+      "type": "CTkFrame",
+      "name": "MainContainer",
+      "x": 194,
+      "y": 80,
+      "width": 400,
+      "height": 440,
+      "properties": {
+        "fg_color": "#252525",
+        "border_width": 2,
+        "border_color": "#e91e8c",
+        "corner_radius": 15
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 1
+    },
+    {
+      "id": "CTkLabel_d4e5f6",
+      "type": "CTkLabel",
+      "name": "TitleLabel",
+      "x": 244,
+      "y": 110,
+      "width": 300,
+      "height": 40,
+      "properties": {
+        "text": "Welcome Back",
+        "font_size": 28,
+        "font_weight": "bold",
+        "text_color": "#f0f0f0"
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 2
+    },
+    {
+      "id": "CTkLabel_g7h8i9",
+      "type": "CTkLabel",
+      "name": "SubtitleLabel",
+      "x": 244,
+      "y": 150,
+      "width": 300,
+      "height": 20,
+      "properties": {
+        "text": "Please login to your account",
+        "font_size": 14,
+        "text_color": "#aaaaaa"
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 2
+    },
+    {
+      "id": "CTkLabel_j0k1l2",
+      "type": "CTkLabel",
+      "name": "EmailLabel",
+      "x": 234,
+      "y": 200,
+      "width": 100,
+      "height": 24,
+      "properties": {
+        "text": "Email Address",
+        "font_size": 13,
+        "anchor": "w"
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 2
+    },
+    {
+      "id": "CTkEntry_m3n4o5",
+      "type": "CTkEntry",
+      "name": "EmailEntry",
+      "x": 234,
+      "y": 230,
+      "width": 320,
+      "height": 40,
+      "properties": {
+        "placeholder_text": "hello@example.com",
+        "corner_radius": 8,
+        "border_color": "#e91e8c"
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 2
+    },
+    {
+      "id": "CTkLabel_p6q7r8",
+      "type": "CTkLabel",
+      "name": "PasswordLabel",
+      "x": 234,
+      "y": 285,
+      "width": 100,
+      "height": 24,
+      "properties": {
+        "text": "Password",
+        "font_size": 13,
+        "anchor": "w"
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 2
+    },
+    {
+      "id": "CTkEntry_s9t0u1",
+      "type": "CTkEntry",
+      "name": "PasswordEntry",
+      "x": 234,
+      "y": 315,
+      "width": 320,
+      "height": 40,
+      "properties": {
+        "placeholder_text": "••••••••",
+        "show": "•",
+        "corner_radius": 8,
+        "border_color": "#e91e8c"
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 2
+    },
+    {
+      "id": "CTkCheckBox_v2w3x4",
+      "type": "CTkCheckBox",
+      "name": "RememberCheck",
+      "x": 234,
+      "y": 370,
+      "width": 150,
+      "height": 24,
+      "properties": {
+        "text": "Remember me",
+        "font_size": 12,
+        "checkmark_color": "#e91e8c"
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 2
+    },
+    {
+      "id": "CTkButton_y5z6a7",
+      "type": "CTkButton",
+      "name": "LoginButton",
+      "x": 234,
+      "y": 420,
+      "width": 320,
+      "height": 45,
+      "properties": {
+        "text": "Sign In",
+        "font_weight": "bold",
+        "fg_color": "#e91e8c",
+        "hover_color": "#c21875",
+        "corner_radius": 8
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 2
+    },
+    {
+      "id": "CTkButton_b8c9d0",
+      "type": "CTkButton",
+      "name": "ForgotButton",
+      "x": 334,
+      "y": 475,
+      "width": 120,
+      "height": 20,
+      "properties": {
+        "text": "Forgot Password?",
+        "fg_color": "transparent",
+        "text_color": "#e91e8c",
+        "hover_color": "#333333",
+        "font_size": 11
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 2
+    }
+  ],
+  "nodeGraph": {
+    "nodes": [],
+    "edges": []
+  }
+}
