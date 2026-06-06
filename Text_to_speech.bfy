@@ -1,0 +1,306 @@
+{
+  "version": "3.0",
+  "canvas": {
+    "width": 789,
+    "height": 600,
+    "title": "Text to speech",
+    "theme": "light",
+    "colorTheme": "green"
+  },
+  "widgets": [
+    {
+      "id": "CTkNavbar_a1b2c3",
+      "type": "CTkNavbar",
+      "name": "CTkNavbar_a1b2c3",
+      "x": 12,
+      "y": 12,
+      "width": 765,
+      "height": 52,
+      "properties": {
+        "text": "VocalEase Studio",
+        "fg_color": "#ffffff",
+        "corner_radius": 8
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 1
+    },
+    {
+      "id": "CTkFrame_d4e5f6",
+      "type": "CTkFrame",
+      "name": "CTkFrame_d4e5f6",
+      "x": 12,
+      "y": 72,
+      "width": 530,
+      "height": 516,
+      "properties": {
+        "fg_color": "#ffffff",
+        "corner_radius": 12
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 1
+    },
+    {
+      "id": "CTkLabel_g7h8i9",
+      "type": "CTkLabel",
+      "name": "CTkLabel_g7h8i9",
+      "x": 28,
+      "y": 88,
+      "width": 200,
+      "height": 24,
+      "properties": {
+        "text": "Enter Text to Convert",
+        "font_size": 16,
+        "text_color": "#1a1a1a",
+        "anchor": "w"
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 2
+    },
+    {
+      "id": "CTkTextbox_j0k1l2",
+      "type": "CTkTextbox",
+      "name": "CTkTextbox_j0k1l2",
+      "x": 28,
+      "y": 120,
+      "width": 498,
+      "height": 380,
+      "properties": {
+        "fg_color": "#f9f9f9",
+        "border_width": 1,
+        "border_color": "#2dc653",
+        "text": "Type or paste your text here..."
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 2
+    },
+    {
+      "id": "CTkFrame_m3n4o5",
+      "type": "CTkFrame",
+      "name": "CTkFrame_m3n4o5",
+      "x": 554,
+      "y": 72,
+      "width": 223,
+      "height": 516,
+      "properties": {
+        "fg_color": "#ffffff",
+        "corner_radius": 12
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 1
+    },
+    {
+      "id": "CTkLabel_p6q7r8",
+      "type": "CTkLabel",
+      "name": "CTkLabel_p6q7r8",
+      "x": 566,
+      "y": 88,
+      "width": 199,
+      "height": 24,
+      "properties": {
+        "text": "Voice Controls",
+        "font_size": 14,
+        "text_color": "#2dc653"
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 2
+    },
+    {
+      "id": "CTkComboBox_s9t0u1",
+      "type": "CTkComboBox",
+      "name": "CTkComboBox_s9t0u1",
+      "x": 566,
+      "y": 120,
+      "width": 199,
+      "height": 34,
+      "properties": {
+        "values": [
+          "English (US) - Male",
+          "English (US) - Female",
+          "English (UK) - Male",
+          "Spanish - Female",
+          "French - Male"
+        ],
+        "button_color": "#2dc653"
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 2
+    },
+    {
+      "id": "CTkLabel_v2w3x4",
+      "type": "CTkLabel",
+      "name": "CTkLabel_v2w3x4",
+      "x": 566,
+      "y": 170,
+      "width": 199,
+      "height": 24,
+      "properties": {
+        "text": "Volume",
+        "font_size": 12
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 2
+    },
+    {
+      "id": "CTkSlider_y5z6a7",
+      "type": "CTkSlider",
+      "name": "CTkSlider_y5z6a7",
+      "x": 566,
+      "y": 200,
+      "width": 199,
+      "height": 16,
+      "properties": {
+        "button_color": "#2dc653",
+        "progress_color": "#2dc653"
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 2
+    },
+    {
+      "id": "CTkLabel_b8c9d0",
+      "type": "CTkLabel",
+      "name": "CTkLabel_b8c9d0",
+      "x": 566,
+      "y": 230,
+      "width": 199,
+      "height": 24,
+      "properties": {
+        "text": "Speed Rate",
+        "font_size": 12
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 2
+    },
+    {
+      "id": "CTkSlider_e1f2g3",
+      "type": "CTkSlider",
+      "name": "CTkSlider_e1f2g3",
+      "x": 566,
+      "y": 260,
+      "width": 199,
+      "height": 16,
+      "properties": {
+        "button_color": "#2dc653",
+        "progress_color": "#2dc653"
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 2
+    },
+    {
+      "id": "CTkSwitch_h4i5j6",
+      "type": "CTkSwitch",
+      "name": "CTkSwitch_h4i5j6",
+      "x": 566,
+      "y": 300,
+      "width": 199,
+      "height": 24,
+      "properties": {
+        "text": "High Quality Audio",
+        "progress_color": "#2dc653"
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 2
+    },
+    {
+      "id": "CTkButton_k7l8m9",
+      "type": "CTkButton",
+      "name": "CTkButton_k7l8m9",
+      "x": 566,
+      "y": 380,
+      "width": 199,
+      "height": 45,
+      "properties": {
+        "text": "Play Audio",
+        "fg_color": "#2dc653",
+        "font_size": 14
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 2
+    },
+    {
+      "id": "CTkButton_n0o1p2",
+      "type": "CTkButton",
+      "name": "CTkButton_n0o1p2",
+      "x": 566,
+      "y": 435,
+      "width": 199,
+      "height": 45,
+      "properties": {
+        "text": "Download MP3",
+        "fg_color": "transparent",
+        "border_width": 2,
+        "border_color": "#2dc653",
+        "text_color": "#2dc653",
+        "font_size": 14
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 2
+    },
+    {
+      "id": "CTkProgressBar_q3r4s5",
+      "type": "CTkProgressBar",
+      "name": "CTkProgressBar_q3r4s5",
+      "x": 28,
+      "y": 520,
+      "width": 498,
+      "height": 16,
+      "properties": {
+        "progress_color": "#2dc653"
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 2
+    },
+    {
+      "id": "CTkLabel_t6u7v8",
+      "type": "CTkLabel",
+      "name": "CTkLabel_t6u7v8",
+      "x": 28,
+      "y": 540,
+      "width": 150,
+      "height": 20,
+      "properties": {
+        "text": "Ready to process...",
+        "font_size": 11,
+        "text_color": "#666666"
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 2
+    },
+    {
+      "id": "CTkButton_w9x0y1",
+      "type": "CTkButton",
+      "name": "CTkButton_w9x0y1",
+      "x": 566,
+      "y": 540,
+      "width": 199,
+      "height": 30,
+      "properties": {
+        "text": "Reset Canvas",
+        "fg_color": "#ff4d4d",
+        "font_size": 12
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 2
+    }
+  ],
+  "nodeGraph": {
+    "nodes": [],
+    "edges": []
+  }
+}
