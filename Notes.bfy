@@ -1,0 +1,253 @@
+{
+  "version": "3.0",
+  "canvas": {
+    "width": 789,
+    "height": 600,
+    "title": "Notes",
+    "theme": "dark",
+    "colorTheme": "purple"
+  },
+  "widgets": [
+    {
+      "id": "CTkSidebar_a1b2c3",
+      "type": "CTkSidebar",
+      "name": "Sidebar_1",
+      "x": 12,
+      "y": 12,
+      "width": 200,
+      "height": 576,
+      "properties": {
+        "fg_color": "#1e1e1e",
+        "border_width": 1,
+        "border_color": "#2a2a2a"
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 1
+    },
+    {
+      "id": "CTkLabel_d4e5f6",
+      "type": "CTkLabel",
+      "name": "AppTitle_1",
+      "x": 24,
+      "y": 28,
+      "width": 176,
+      "height": 34,
+      "properties": {
+        "text": "PURPLE NOTES",
+        "font_size": 20,
+        "font_weight": "bold",
+        "text_color": "#6c3efa"
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 2
+    },
+    {
+      "id": "CTkButton_g7h8i9",
+      "type": "CTkButton",
+      "name": "NewNoteBtn_1",
+      "x": 28,
+      "y": 80,
+      "width": 168,
+      "height": 40,
+      "properties": {
+        "text": "+ New Note",
+        "fg_color": "#6c3efa",
+        "hover_color": "#5a32d1",
+        "corner_radius": 10
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 2
+    },
+    {
+      "id": "CTkScrollableFrame_j0k1l2",
+      "type": "CTkScrollableFrame",
+      "name": "NoteList_1",
+      "x": 20,
+      "y": 135,
+      "width": 184,
+      "height": 400,
+      "properties": {
+        "fg_color": "transparent",
+        "label_text": "RECENT NOTES",
+        "label_font_size": 11,
+        "label_text_color": "#888888"
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 2
+    },
+    {
+      "id": "CTkNavbar_m3n4o5",
+      "type": "CTkNavbar",
+      "name": "Header_1",
+      "x": 224,
+      "y": 12,
+      "width": 553,
+      "height": 56,
+      "properties": {
+        "fg_color": "#252525",
+        "border_width": 1,
+        "border_color": "#333333"
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 1
+    },
+    {
+      "id": "CTkSearchBar_p6q7r8",
+      "type": "CTkSearchBar",
+      "name": "Search_1",
+      "x": 236,
+      "y": 22,
+      "width": 320,
+      "height": 36,
+      "properties": {
+        "placeholder_text": "Search notes...",
+        "fg_color": "#1e1e1e",
+        "border_width": 1
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 2
+    },
+    {
+      "id": "CTkFrame_s9t0u1",
+      "type": "CTkFrame",
+      "name": "EditorContainer_1",
+      "x": 224,
+      "y": 80,
+      "width": 553,
+      "height": 508,
+      "properties": {
+        "fg_color": "#252525",
+        "border_width": 1,
+        "border_color": "#333333",
+        "corner_radius": 12
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 1
+    },
+    {
+      "id": "CTkEntry_v2w3x4",
+      "type": "CTkEntry",
+      "name": "NoteTitle_1",
+      "x": 244,
+      "y": 96,
+      "width": 513,
+      "height": 44,
+      "properties": {
+        "placeholder_text": "Untitled Note",
+        "font_size": 22,
+        "border_width": 0,
+        "fg_color": "transparent",
+        "text_color": "#f0f0f0"
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 2
+    },
+    {
+      "id": "CTkTextbox_y5z6a7",
+      "type": "CTkTextbox",
+      "name": "Editor_1",
+      "x": 240,
+      "y": 150,
+      "width": 521,
+      "height": 370,
+      "properties": {
+        "fg_color": "#1e1e1e",
+        "border_width": 1,
+        "border_color": "#333333",
+        "corner_radius": 8,
+        "font_size": 14
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 2
+    },
+    {
+      "id": "CTkLabel_b8c9d0",
+      "type": "CTkLabel",
+      "name": "Status_1",
+      "x": 244,
+      "y": 545,
+      "width": 200,
+      "height": 24,
+      "properties": {
+        "text": "• Synced to cloud",
+        "font_size": 12,
+        "text_color": "#2dc653"
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 2
+    },
+    {
+      "id": "CTkButton_e1f2g3",
+      "type": "CTkButton",
+      "name": "SaveBtn_1",
+      "x": 641,
+      "y": 540,
+      "width": 120,
+      "height": 36,
+      "properties": {
+        "text": "Save Changes",
+        "fg_color": "#6c3efa",
+        "corner_radius": 8,
+        "font_weight": "bold"
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 2
+    },
+    {
+      "id": "CTkSwitch_h4i5j6",
+      "type": "CTkSwitch",
+      "name": "CloudSync_1",
+      "x": 32,
+      "y": 550,
+      "width": 160,
+      "height": 24,
+      "properties": {
+        "text": "Auto-sync",
+        "progress_color": "#6c3efa",
+        "font_size": 12
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 2
+    },
+    {
+      "id": "CTkOptionMenu_k7l8m9",
+      "type": "CTkOptionMenu",
+      "name": "Category_1",
+      "x": 620,
+      "y": 22,
+      "width": 140,
+      "height": 36,
+      "properties": {
+        "values": [
+          "Personal",
+          "Work",
+          "Ideas",
+          "Tasks"
+        ],
+        "fg_color": "#333333",
+        "button_color": "#444444",
+        "button_hover_color": "#6c3efa",
+        "corner_radius": 8
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 2
+    }
+  ],
+  "nodeGraph": {
+    "nodes": [],
+    "edges": []
+  }
+}
