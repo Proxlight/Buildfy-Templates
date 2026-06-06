@@ -1,0 +1,280 @@
+{
+  "version": "3.0",
+  "canvas": {
+    "width": 789,
+    "height": 600,
+    "title": "Todo",
+    "theme": "light",
+    "colorTheme": "orange"
+  },
+  "widgets": [
+    {
+      "id": "CTkFrame_a1b2c3",
+      "type": "CTkFrame",
+      "name": "Sidebar_01",
+      "x": 12,
+      "y": 12,
+      "width": 220,
+      "height": 576,
+      "properties": {
+        "fg_color": "#f7f7f5",
+        "border_width": 0,
+        "corner_radius": 0
+      },
+      "locked": true,
+      "visible": true,
+      "zIndex": 1
+    },
+    {
+      "id": "CTkLabel_d4e5f6",
+      "type": "CTkLabel",
+      "name": "Workspace_Label",
+      "x": 20,
+      "y": 24,
+      "width": 180,
+      "height": 28,
+      "properties": {
+        "text": "Workspace",
+        "font": [
+          "Inter",
+          16,
+          "bold"
+        ],
+        "text_color": "#37352f",
+        "anchor": "w"
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 10
+    },
+    {
+      "id": "CTkButton_g7h8i9",
+      "type": "CTkButton",
+      "name": "Today_Btn",
+      "x": 12,
+      "y": 70,
+      "width": 196,
+      "height": 32,
+      "properties": {
+        "text": "📅  Today",
+        "fg_color": "transparent",
+        "hover_color": "#efefed",
+        "text_color": "#37352f",
+        "anchor": "w",
+        "corner_radius": 6
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 11
+    },
+    {
+      "id": "CTkButton_j0k1l2",
+      "type": "CTkButton",
+      "name": "Upcoming_Btn",
+      "x": 12,
+      "y": 110,
+      "width": 196,
+      "height": 32,
+      "properties": {
+        "text": "🗓️  Upcoming",
+        "fg_color": "transparent",
+        "hover_color": "#efefed",
+        "text_color": "#37352f",
+        "anchor": "w",
+        "corner_radius": 6
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 12
+    },
+    {
+      "id": "CTkLabel_m3n4o5",
+      "type": "CTkLabel",
+      "name": "Main_Title",
+      "x": 260,
+      "y": 48,
+      "width": 200,
+      "height": 40,
+      "properties": {
+        "text": "To-do List",
+        "font": [
+          "SF Pro Display",
+          32,
+          "bold"
+        ],
+        "text_color": "#1a1a1a",
+        "anchor": "w"
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 2
+    },
+    {
+      "id": "CTkEntry_p6q7r8",
+      "type": "CTkEntry",
+      "name": "Quick_Add_Entry",
+      "x": 260,
+      "y": 110,
+      "width": 460,
+      "height": 40,
+      "properties": {
+        "placeholder_text": "Press Enter to add a task...",
+        "fg_color": "#ffffff",
+        "border_color": "#e0e0de",
+        "corner_radius": 8
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 3
+    },
+    {
+      "id": "CTkScrollableFrame_s9t0u1",
+      "type": "CTkScrollableFrame",
+      "name": "Task_Container",
+      "x": 260,
+      "y": 170,
+      "width": 500,
+      "height": 380,
+      "properties": {
+        "fg_color": "transparent",
+        "label_text": ""
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 2
+    },
+    {
+      "id": "CTkCheckBox_v2w3x4",
+      "type": "CTkCheckBox",
+      "name": "Task_Item_1",
+      "x": 280,
+      "y": 190,
+      "width": 450,
+      "height": 24,
+      "properties": {
+        "text": "Review project requirements",
+        "checkbox_width": 20,
+        "checkbox_height": 20,
+        "corner_radius": 4,
+        "font": [
+          "Inter",
+          14
+        ],
+        "fg_color": "#e86b00"
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 15
+    },
+    {
+      "id": "CTkCheckBox_y5z6a7",
+      "type": "CTkCheckBox",
+      "name": "Task_Item_2",
+      "x": 280,
+      "y": 230,
+      "width": 450,
+      "height": 24,
+      "properties": {
+        "text": "Sync with design team regarding assets",
+        "checkbox_width": 20,
+        "checkbox_height": 20,
+        "corner_radius": 5,
+        "font": [
+          "Inter",
+          14
+        ],
+        "fg_color": "#e86b00"
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 16
+    },
+    {
+      "id": "CTkCheckBox_b8c9d0",
+      "type": "CTkCheckBox",
+      "name": "Task_Item_3",
+      "x": 280,
+      "y": 270,
+      "width": 450,
+      "height": 24,
+      "properties": {
+        "text": "Lunch at 1:00 PM",
+        "checkbox_width": 20,
+        "checkbox_height": 20,
+        "corner_radius": 5,
+        "font": [
+          "Inter",
+          14
+        ],
+        "fg_color": "#e86b00"
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 17
+    },
+    {
+      "id": "CTkButton_e1f2g3",
+      "type": "CTkButton",
+      "name": "New_Task_Button",
+      "x": 640,
+      "y": 50,
+      "width": 120,
+      "height": 34,
+      "properties": {
+        "text": "+ New Task",
+        "fg_color": "#e86b00",
+        "hover_color": "#c65c00",
+        "text_color": "#ffffff",
+        "corner_radius": 8,
+        "font": [
+          "Inter",
+          13,
+          "bold"
+        ]
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 4
+    },
+    {
+      "id": "CTkProgressBar_h4i5j6",
+      "type": "CTkProgressBar",
+      "name": "Goal_Progress",
+      "x": 12,
+      "y": 560,
+      "width": 196,
+      "height": 16,
+      "properties": {
+        "progress_color": "#e86b00",
+        "determinate_speed": 1
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 13
+    },
+    {
+      "id": "CTkLabel_k7l8m9",
+      "type": "CTkLabel",
+      "name": "Progress_Text",
+      "x": 12,
+      "y": 535,
+      "width": 100,
+      "height": 20,
+      "properties": {
+        "text": "3 of 10 done",
+        "font": [
+          "Inter",
+          11
+        ],
+        "text_color": "#787774"
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 14
+    }
+  ],
+  "nodeGraph": {
+    "nodes": [],
+    "edges": []
+  }
+}
